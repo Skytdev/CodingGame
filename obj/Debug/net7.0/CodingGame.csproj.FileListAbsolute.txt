@@ -1,0 +1,5 @@
+C:\Users\Pierr\Documents\Csharp\CodingGame\obj\Debug\net7.0\CodingGame.csproj.AssemblyReference.cache
+C:\Users\Pierr\Documents\Csharp\CodingGame\obj\Debug\net7.0\CodingGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pierr\Documents\Csharp\CodingGame\obj\Debug\net7.0\CodingGame.AssemblyInfoInputs.cache
+C:\Users\Pierr\Documents\Csharp\CodingGame\obj\Debug\net7.0\CodingGame.AssemblyInfo.cs
+C:\Users\Pierr\Documents\Csharp\CodingGame\obj\Debug\net7.0\CodingGame.csproj.CoreCompileInputs.cache
