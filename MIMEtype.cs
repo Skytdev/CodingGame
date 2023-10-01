@@ -9,7 +9,7 @@ using System.Collections.Generic;
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
  **/
-class Solution
+class MIME
 {
     public class Dico
     {
@@ -18,7 +18,7 @@ class Solution
         public string name { get; set; }
     }
 
-    static void Main(string[] args)
+    static void MimeStart(string[] args)
     {
         int N = int.Parse(Console.ReadLine()); // Number of elements which make up the association table.
         int Q = int.Parse(Console.ReadLine()); // Number Q of file names to be analyzed.

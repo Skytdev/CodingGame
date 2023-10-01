@@ -9,11 +9,11 @@ using System.Collections.Generic;
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
  **/
-class Solution
+class Unary
 {
 
 
-    static void Main(string[] args)
+    static void UnaryStart(string[] args)
     {
         string MESSAGE = Console.ReadLine();
         Console.WriteLine(MESSAGE);

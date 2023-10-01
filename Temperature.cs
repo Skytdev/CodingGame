@@ -9,9 +9,9 @@ using System.Collections.Generic;
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
  **/
-class Solution
+class Temperature
 {
-    static void Main(string[] args)
+    static void TemperatureStart(string[] args)
     {
         int n = int.Parse(Console.ReadLine()); // the number of temperatures to analyse
 

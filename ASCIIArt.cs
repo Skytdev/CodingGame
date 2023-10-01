@@ -15,7 +15,7 @@ public class Letters
     public int[] code;
 }
 
-class Solution
+class ASCII
 {
     //                                    0      1      2         3        4      5       6      7
     public static string[] sequence = { "    ", "#   ", "##  ", "### ", " ## ", "  # ", " #  ", "# # " };
@@ -49,7 +49,7 @@ class Solution
         new Letters { letter = "?", code = new int[] { 3, 5, 4, 0, 6 } },
     };
 
-    static void Main(string[] args)
+    static void AsciiStart(string[] args)
     {
         int L = int.Parse(Console.ReadLine());
         int H = int.Parse(Console.ReadLine());

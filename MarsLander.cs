@@ -9,9 +9,9 @@ using System.Collections.Generic;
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
  **/
-class Player
+class Mars
 {
-    static void Main(string[] args)
+    static void MarsStart(string[] args)
     {
         string[] inputs;
         int surfaceN = int.Parse(Console.ReadLine()); // the number of points used to draw the surface of Mars.

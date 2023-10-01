@@ -9,9 +9,9 @@ using System.Collections.Generic;
  * Auto-generated code below aims at helping you parse
  * the standard input according to the problem statement.
  **/
-class Solution
+class Defib
 {
-    static void Main(string[] args)
+    static void DefibStart(string[] args)
     {
         string LON = Console.ReadLine();
         string LAT = Console.ReadLine();

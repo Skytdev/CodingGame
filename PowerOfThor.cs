@@ -11,9 +11,9 @@ using System.Collections.Generic;
  * ---
  * Hint: You can use the debug stream to print thorTX and thorTY, if Thor seems not follow your orders.
  **/
-class Player
+class Thor
 {
-    static void Main(string[] args)
+    static void ThorStart(string[] args)
     {
         string[] inputs = Console.ReadLine().Split(' ');
         int lightX = int.Parse(inputs[0]); // the X position of the light of power
