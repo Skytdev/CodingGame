@@ -51,7 +51,7 @@ class PlaySpoon
         {
             if (IsNode(lineList, currentLine, x))
             {
-                Console.Error.WriteLine($"Node found at ({x}, {currentLine}) !");
+                Console.Error.WriteLine($"Bite found at ({x}, {currentLine}) !");
                 var currentNode = new Node(x, currentLine);
                 currentNode.RightNode = SearchNextNode(lineList, width, currentLine, x);
                 currentNode.BotNode = SearchBottomNode(lineList, height, currentLine, x);
@@ -66,11 +66,11 @@ class PlaySpoon
         {
             if (IsNode(lineList, currentLine, xIndex))
             {
-                Console.Error.WriteLine($"Next Node found at ({xIndex}, {currentLine}) !");
+                Console.Error.WriteLine($"Next Bite found at ({xIndex}, {currentLine}) !");
                 return new Node(xIndex, currentLine);
             }
         }
-        Console.Error.WriteLine($"Not Bottom Node found (-1, -1)");
+        Console.Error.WriteLine($"Not Bottom Bite found (-1, -1)");
         return new Node(-1 , -1);
     }
 
@@ -80,11 +80,11 @@ class PlaySpoon
         {
             if (IsNode(lineList, yIndex, x))
             {
-                Console.Error.WriteLine($"Bottom Node found at ({x}, {yIndex}) !");
+                Console.Error.WriteLine($"Bottom Bite found at ({x}, {yIndex}) !");
                 return new Node(x, yIndex);
             }
         }
-        Console.Error.WriteLine($"Not Bottom Node found (-1, -1)");
+        Console.Error.WriteLine($"Not Bottom Bite found (-1, -1)");
         return new Node(-1, -1);
     }
 
